@@ -1,28 +1,8 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .gallery {
-    width: 1128px;
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
-    margin: 0 auto;
-  }
-  
-  .gallery img {
-    display: block;
-    width: calc((100% - 24 * 2) / 3);
-    height: 200px;
-    /* transition: transform 0.3s ease-in; */
-  }
-  
-  .gallery img:hover {
-    transform: scale(1);
-  }
+    flex-basis: ((100% - 48px)/2);
+}
